@@ -11,6 +11,5 @@ with open('unique_ips.txt', 'w') as g:
     for ip in unique_ips:
         g.write(ip)
         g.write("\n")
-        print(ip)
 
 
